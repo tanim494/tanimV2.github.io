@@ -123,6 +123,7 @@ i{
 h2 i{
   color:rgb(214, 228, 228);
   font-size: 30px;
+  margin-right: 10px;
 }
 span:not(.sp2,#fname,#lastn){
   font-size: 30px;
