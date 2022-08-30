@@ -35,7 +35,7 @@ nav ul li a{
   color: aliceblue;
   font-weight: bold;
 }
-nav ul li a:hover{
+nav ul li a:hover:not(.current){
   color: red;
 }
 .side{
@@ -67,7 +67,7 @@ nav ul li a:hover{
   border-radius: 5px;
 }
 .right{
-  width:45%;
+  width:40%;
   height: 80%;
   position: absolute;
   bottom: 0;
@@ -80,11 +80,15 @@ nav ul li a:hover{
   width: ;
   position: absolute;
   bottom: 20px;
-  left: 30%;
+  left: 20%;
   border-radius: 10%;
   /* transform: translateX(-50%); */
   
 }
 #fname{
 font-size:50px;
+color: oldlace;
+}
+.current{
+  color: aquamarine;
 }
