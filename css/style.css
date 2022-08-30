@@ -48,7 +48,7 @@ nav ul li a:hover{
   font-size: 40px;
   margin-bottom: 20px;
 }
-span{
+#lastn{
   color: yellow;
 }
 .side p{
@@ -84,4 +84,7 @@ span{
   border-radius: 10%;
   /* transform: translateX(-50%); */
   
+}
+#fname{
+font-weight:bold;
 }
