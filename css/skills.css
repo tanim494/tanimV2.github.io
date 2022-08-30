@@ -3,14 +3,7 @@
   margin: auto;
   margin-bottom: 2%;
 }
-h2 {
-  color:rgba(255, 255, 0, 0.744);
-  border-bottom: 2px solid;
-  margin-bottom: 15px;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding-bottom: 5px;
-}
+
 p {
   color: aliceblue;
   text-transform: uppercase;

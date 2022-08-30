@@ -9,17 +9,25 @@
   width: 100%;
   height: 100vh;
 }
-#logo{
+#logo {
   position: relative;
   width: 200px;
   height: 100px;
 }
-#logo:hover{
+#logo:hover {
   opacity: 80%;
+}
+h2 {
+  color: rgba(255, 255, 0, 0.744);
+  border-bottom: 2px solid;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 5px;
 }
 nav {
   display: flex;
-  width: 84%;
+  width: 85%;
   margin: auto;
   padding: 20px 0;
   align-items: center;
@@ -30,32 +38,32 @@ nav ul li {
   list-style: none;
   margin: 10px 20px;
 }
-nav ul li a{
+nav ul li a {
   text-decoration: none;
   color: aliceblue;
   font-weight: bold;
 }
-nav ul li a:hover:not(.current){
+nav ul li a:hover:not(.current) {
   color: red;
 }
-.side{
+.side {
   padding: 20px;
-  margin-left:5% ;
+  margin-left: 5%;
   margin-top: 10%;
   color: aliceblue;
 }
-.side h1{
+.side h1 {
   font-size: 40px;
   margin-bottom: 20px;
 }
-#lastn{
+#lastn {
   color: yellow;
 }
-.side p{
+.side p {
   margin-left: 2%;
   line-height: 25px;
 }
-.side a{
+.side a {
   background-color: rgb(34, 120, 60);
   color: aliceblue;
   text-decoration: none;
@@ -66,29 +74,33 @@ nav ul li a:hover:not(.current){
   margin-left: 2%;
   border-radius: 5px;
 }
-.right{
-  width:40%;
+.right {
+  width: 40%;
   height: 80%;
   position: absolute;
   bottom: 0;
   right: 60px;
-
-  
 }
-.right img{
-  height: 100%;
+.right img {
+  height: 90%;
   width: ;
   position: absolute;
   bottom: 20px;
   left: 20%;
   border-radius: 10%;
+  box-shadow: 2px 2px 5px black;
   /* transform: translateX(-50%); */
-  
 }
-#fname{
-font-size:50px;
-color: oldlace;
+.right img:hover{
+  height: 100%;
+  box-shadow: 2px 2px 20px rgb(34, 34, 34);
+  transition: 1s;
+  transform: translateX(5%);
 }
-.current{
-  color: aquamarine;
+#fname {
+  font-size: 50px;
+  color: oldlace;
+}
+.current {
+  color: rgb(144, 222, 17);
 }
