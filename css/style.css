@@ -124,7 +124,7 @@ h2 i{
   color:rgb(214, 228, 228);
   font-size: 30px;
 }
-span:not(.sp2){
+span:not(.sp2,#fname,#lastn){
   font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 3px;
