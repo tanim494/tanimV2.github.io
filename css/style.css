@@ -101,7 +101,7 @@ nav ul li a:hover:not(.current) {
 }
 .right img:hover{
   height: 100%;
-  box-shadow: 2px 2px 20px rgb(34, 34, 34);
+  box-shadow: 2px 2px 15px black;
   transition: .75s;
   transform: translateX(5%);
 }
