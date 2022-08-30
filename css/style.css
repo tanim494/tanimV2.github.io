@@ -61,6 +61,11 @@ nav ul li a:hover:not(.current) {
 }
 #lastn {
   color: yellow;
+  text-shadow: 1px 1px 10px black;
+}
+#lastn:hover{
+  font-size: 60px;
+  transition: 1s;
 }
 .side p {
   margin-left: 2%;
