@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +17,7 @@ body{
   position: relative;
   width: 200px;
   height: 100px;
+  filter: drop-shadow(10px 2px 10px black);
 }
 #logo:hover {
   opacity: 80%;
@@ -59,9 +61,15 @@ nav ul li a:hover:not(.current) {
   font-size: 40px;
   margin-bottom: 20px;
 }
+#fname {
+  font-size: 50px;
+  color: oldlace;
+  text-shadow: 1px 1px 10px black;
+
+}
 #lastn {
   color: yellow;
-  text-shadow: 1px 1px 10px black;
+  text-shadow: 1px 1px 5px black;
 }
 #lastn:hover{
   font-size: 60px;
@@ -105,10 +113,6 @@ nav ul li a:hover:not(.current) {
   transition: .75s;
   transform: translateX(5%);
 }
-#fname {
-  font-size: 50px;
-  color: oldlace;
-}
 .current {
   font-size: x-large;
   text-shadow: 2px 2px 5px black;
@@ -142,4 +146,7 @@ span:not(.sp2,#fname,#lastn){
   font-size: 30px;
   text-shadow: 4px 4px 5px rgb(16, 20, 20);
 
+}
+#fname, #lastn{
+  font-family: 'Dancing Script', cursive;
 }
